@@ -5,7 +5,7 @@
 </tr>
 <tr style="background-color: white">
 <td>
-<ol>
+<ol style="width: 500px">
 <li>Kiefer, Ralph W., and Thomes M. Lillesand. "Principles of Remote Sensing." 2006 (2006)</li>
 <li>Fahlstrom, Paul G., Thomas J. Gleason, and Mohammad H. Sadraey. Introduction to UAV systems. John Wiley & Sons, 2022</li>
 <li>Noor, Norzailawati Mohd, Alias Abdullah, and Mazlan Hashim. "Remote sensing UAV/drones and its applications for urban areas: A review." In IOP conference series: Earth and environmental science, vol. 169, no. 1, p. 012003. IOP Publishing, 2018</li>
