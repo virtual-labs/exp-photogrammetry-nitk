@@ -36,10 +36,10 @@
     {
       "question": "Which of the following components acts as the brain of a drone?",
       "answers": {
-        "a": "GPS MODULE",
-        "b": "ELECTRONIC SPEED CONTROLLER",
-        "c": "ACCELEROMETER",
-        "d": "FLIGHT CONTROLLER"
+        "a": "GPS module",
+        "b": "Electronic speed controller",
+        "c": "Accelerometer",
+        "d": "Flight controller"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
