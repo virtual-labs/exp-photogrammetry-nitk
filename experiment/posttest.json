@@ -8,10 +8,10 @@
         "b": "False"
       },
       "explanations": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
+        "a": " ",
+        "b": " ",
+        "c": " ",
+        "d": " "
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
@@ -25,10 +25,10 @@
         "d": "All of the above"
       },
       "explanations": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
+        "a": " ",
+        "b": " ",
+        "c": " ",
+        "d": " "
       },
       "correctAnswer": "d",
       "difficulty": "beginner"
@@ -42,10 +42,10 @@
         "d": "180"
       },
       "explanations": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
+        "a": " ",
+        "b": " ",
+        "c": " ",
+        "d": " "
       },
       "correctAnswer": "c",
       "difficulty": "Intermediate"
@@ -59,10 +59,10 @@
         "d": "Right to heading"
       },
       "explanations": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
+        "a": " ",
+        "b": " ",
+        "c": " ",
+        "d": " "
       },
       "correctAnswer": "b",
       "difficulty": "Intermediate"
@@ -76,10 +76,10 @@
         "d": "Calculate the real-time height of the drone"
       },
       "explanations": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
+        "a": " ",
+        "b": " ",
+        "c": " ",
+        "d": " "
       },
       "correctAnswer": "b",
       "difficulty": "Advanced"
