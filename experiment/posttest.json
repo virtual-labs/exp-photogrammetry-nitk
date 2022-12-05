@@ -6,6 +6,7 @@
       "answers": {
         "a": "True",
         "b": "False"
+        
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -19,10 +20,10 @@
     {
       "question": "Select all the parameters to be checked in the preflight checks",
       "answers": {
-        "a": "CAMERA",
-        "b": "CONTROLLER",
-        "c": "FLIGHT PLAN",
-        "d": "ALL OF THE ABOVE"
+        "a": "Camera",
+        "b": "Controller",
+        "c": "Flight plan",
+        "d": "All of the above"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -68,7 +69,7 @@
       "difficulty": "Intermediate"
     },
     {
-      "question": "The purpose of using RTK in drones is to _________",
+      "question": "The purpose of using RTK in drones is to?",
       "answers": {
         "a": "Calculated the distance from home",
         "b": "Correct the GPS location in real-time",
