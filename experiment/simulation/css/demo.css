@@ -404,10 +404,10 @@ tooltip {
 }
 @keyframes moveblade {
   0% {
-    transform: rotate(83deg);
+    transform: rotate(-83deg);
   }
   100% {
-    transform: rotate(360deg);
+    transform: rotate(-360deg);
   }
 }
 @keyframes moveblade1 {
@@ -419,6 +419,14 @@ tooltip {
   }
 }
 @keyframes moveblade2 {
+  0% {
+    transform: rotate(-83deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+@keyframes moveblade3 {
   0% {
     transform: rotate(83deg);
   }
@@ -1397,4 +1405,17 @@ span.bg1 {
     orange,
     red
   );
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 12px;
+}
+
+td,
+th {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+  font-size: 12px;
 }

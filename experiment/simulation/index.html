@@ -31,7 +31,7 @@
         <br />
         <h4 class="incanvas">Apparatus used:</h4>
         <p class="incanvas" style="font-size: 14px">
-          Drone with camera, Battery, Interface device(phone/iPad), USB cable,
+          Drone with camera, Battery, Interface device (phone/iPad), USB cable,
           Landing pad.
         </p>
         <br />
@@ -768,7 +768,7 @@
                 oninput="setTitle(event)"
               /><br /><br />
               <label for="lname">Type of plan:</label>
-              <input type="checkbox" id="plan" name="plan" value="Fly" />
+              <input type="checkbox" id="plan" name="plan" value="Fly" disabled/>
               <label for="plan" id="fly">Fly</label>
               <input
                 type="checkbox"
@@ -920,6 +920,7 @@
                   top: 314px;
                   visibility: hidden;
                 "
+                disabled
               /><br />
               <p
                 id="num-2"
@@ -1017,7 +1018,7 @@
             height: 445px;
             visibility: hidden;
           "
-          src="./images/suganthai1.png"
+          src="./images/sug3.png"
         />
 
         <img
@@ -1042,7 +1043,7 @@
             height: 445px;
             visibility: hidden;
           "
-          src="./images/sug3.png"
+          src="./images/suganthai1.png"
         />
 
         <img
@@ -1375,13 +1376,42 @@
       </div>
       <div class="simsubscreen" id="canvas8" style="visibility: hidden">
         
-        <h2 class="steptext" style="position: absolute; font-size :20px; ">Inference</h2><br><br><br>
+        <h2 class="steptext" style="position: absolute; font-size :20px; ">Observation: </h2><br><br>
+        <h3 style="position: absolute; font-size :13px;left: 51px; top: 55px;">For the flight mission carried following are the observation:</h3><br><br><br>
         <div id="info" style="position: absolute; left:50px; max-width: 329px; width: 364px;">
           <p style="position: absolute; font-size :13px; font-weight: bold;"> Area surveyed: 59 Acre</p><br><br>
         
         <p style="position: absolute; font-size :13px; font-weight: bold;"> No of batteries: 1  </p><br><br>
         <p style="position: absolute; font-size :13px; font-weight: bold;"> Front overlap: 75%</p><br><br>
-        <p style="position: absolute; font-size :13px; font-weight: bold;"> Side overlap: 70%</p><br><br>
+        <p style="position: absolute; font-size :13px; font-weight: bold;"> Side overlap: 70%</p><br><br><br>
+        <table>
+          <caption></caption>
+          <tr>
+            <th>Flight height (m)</th>
+            <th>Resolution (cm/px)</th>
+            <th>Flight Time (min)</th>
+            <th>No of Images</th>
+          </tr>
+          <tr>
+            <td>100</td>
+            <td>2.74</td>
+            <td>15</td>
+            <td>131</td>
+          </tr>
+          <tr>
+            <td>120</td>
+            <td>3.29</td>
+            <td>13</td>
+            <td>187</td>
+          </tr>
+          <tr>
+            <td>150</td>
+            <td>4.11</td>
+            <td>10.45</td>
+            <td>286</td>
+          </tr>
+          
+        </table>
         </div>
       </div>
 
