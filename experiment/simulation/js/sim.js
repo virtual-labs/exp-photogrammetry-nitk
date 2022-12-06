@@ -433,7 +433,7 @@ function magic() {
                                 ).style.transformOrigin = "33% 54%";
                                 document.getElementById(
                                   "6-7c"
-                                ).style.animation = "moveblade2 2s 1 forwards";
+                                ).style.animation = "moveblade3 2s 1 forwards";
                                 setTimeout(function () {
                                   document.getElementById(
                                     "6-6d"
@@ -580,6 +580,7 @@ function magic() {
     document.getElementById("5-4").style.visibility = "hidden";
     document.getElementById("5-5").style.visibility = "hidden";
     document.getElementById("7-1-1").style.visibility = "visible";
+    document.getElementById("plan").disabled = false;
 
     document.getElementById("7-1-3").style.visibility = "visible";
 
@@ -634,10 +635,12 @@ function magic() {
                         "hidden";
                       document.getElementById("7-1-6").style.visibility =
                         "visible";
+                      document.getElementById("sub1").disabled = false;
                       document.getElementById("sub1").onclick = function () {
                         document.getElementById("7-1-6").style.animation =
-                          "movearrow 30s forwards";
+                          "movearrow2 30s forwards";
                         move();
+                        document.getElementById("sub1").disabled = true;
                         document.getElementById("fh").disabled = true;
                         document.getElementById("num-1").style.visibility =
                           "visible";
@@ -656,12 +659,16 @@ function magic() {
                           // var u = document.getElementById("upload");
                           // u.disabled = false;
                           document.getElementById("upload").disabled = false;
+                          document.getElementById("fh").disabled = true;
+
                           document.getElementById("upload").onclick =
                             function () {
                               if (document.getElementById("upload").checked) {
                                 document.getElementById(
                                   "7-1-11"
                                 ).style.visibility = "visible";
+                                document.getElementById("plan").disabled = true;
+                                document.getElementById("sub1").disabled = true;
                                 document.getElementById(
                                   "out1"
                                 ).style.visibility = "visible";
@@ -710,6 +717,9 @@ function magic() {
                                         "up1"
                                       ).style.visibility = "visible";
                                       document.getElementById(
+                                        "fh"
+                                      ).disabled = false;
+                                      document.getElementById(
                                         "next1"
                                       ).style.visibility = "visible";
                                       document.getElementById("next1").onclick =
@@ -765,6 +775,9 @@ function magic() {
                                   };
                               } else {
                                 document.getElementById(
+                                  "plan"
+                                ).disabled = false;
+                                document.getElementById(
                                   "7-1-11"
                                 ).style.visibility = "hidden";
                                 document.getElementById(
@@ -788,11 +801,14 @@ function magic() {
                       };
                       break;
                     case "120":
+                      document.getElementById("plan").disabled = false;
                       document.getElementById("nextButton").style.visibility =
                         "hidden";
                       document.getElementById("up1").style.visibility =
                         "hidden";
                       document.getElementById("10-2").style.visibility =
+                        "hidden";
+                      document.getElementById("10-1").style.visibility =
                         "hidden";
                       document.getElementById("7-1-5").style.visibility =
                         "hidden";
@@ -802,12 +818,18 @@ function magic() {
                         "visible";
                       document.getElementById("7-1-10").style.visibility =
                         "hidden";
+                      document.getElementById("7-1-11").style.visibility =
+                        "hidden";
                       document.getElementById("7-1-6").style.visibility =
                         "visible";
+                      document.getElementById("next1").style.visibility =
+                        "hidden";
+                      document.getElementById("sub1").disabled = false;
                       document.getElementById("sub1").onclick = function () {
                         document.getElementById("7-1-6").style.animation =
                           "movearrow1 30s forwards";
                         move1();
+                        document.getElementById("sub1").disabled = true;
                         document.getElementById("fh").disabled = true;
                         document.getElementById("num-1").style.visibility =
                           "visible";
@@ -821,7 +843,7 @@ function magic() {
                         setTimeout(function () {
                           document.getElementById("dialo1").style.visibility =
                             "visible";
-                          document.getElementById("fh").disabled = false;
+                          document.getElementById("fh").disabled = true;
                           document.getElementById("upload").disabled = false;
                           document.getElementById("upload").onclick =
                             function () {
@@ -829,6 +851,7 @@ function magic() {
                                 document.getElementById(
                                   "7-1-11"
                                 ).style.visibility = "visible";
+                                document.getElementById("plan").disabled = true;
                                 document.getElementById(
                                   "out1"
                                 ).style.visibility = "visible";
@@ -875,6 +898,9 @@ function magic() {
                                         "up1"
                                       ).style.visibility = "visible";
                                       document.getElementById(
+                                        "fh"
+                                      ).disabled = false;
+                                      document.getElementById(
                                         "next1"
                                       ).style.visibility = "visible";
                                       document.getElementById("next1").onclick =
@@ -930,6 +956,9 @@ function magic() {
                                   };
                               } else {
                                 document.getElementById(
+                                  "plan"
+                                ).disabled = false;
+                                document.getElementById(
                                   "7-1-11"
                                 ).style.visibility = "hidden";
                                 document.getElementById(
@@ -945,6 +974,7 @@ function magic() {
 
                       break;
                     case "150":
+                      document.getElementById("plan").disabled = false;
                       document.getElementById("nextButton").style.visibility =
                         "hidden";
                       document.getElementById("up1").style.visibility =
@@ -959,12 +989,17 @@ function magic() {
                         "hidden";
                       document.getElementById("7-1-5").style.visibility =
                         "hidden";
+                      document.getElementById("next1").style.visibility =
+                        "hidden";
                       document.getElementById("7-1-6").style.visibility =
                         "visible";
+                      document.getElementById("sub1").disabled = false;
+
                       document.getElementById("sub1").onclick = function () {
                         document.getElementById("7-1-6").style.animation =
-                          "movearrow2 30s forwards";
+                          "movearrow 30s forwards";
                         move2();
+                        document.getElementById("sub1").disabled = true;
                         document.getElementById("fh").disabled = true;
                         document.getElementById("num-1").style.visibility =
                           "visible";
@@ -978,7 +1013,7 @@ function magic() {
                         setTimeout(function () {
                           document.getElementById("dialo2").style.visibility =
                             "visible";
-                          document.getElementById("fh").disabled = false;
+                          document.getElementById("fh").disabled = true;
                           document.getElementById("upload").disabled = false;
                           document.getElementById("upload").onclick =
                             function () {
@@ -986,9 +1021,12 @@ function magic() {
                                 document.getElementById(
                                   "7-1-11"
                                 ).style.visibility = "visible";
+                                document.getElementById("plan").disabled = true;
+
                                 document.getElementById(
                                   "out1"
                                 ).style.visibility = "visible";
+
                                 document.getElementById(
                                   "output1"
                                 ).style.visibility = "visible";
@@ -1031,6 +1069,9 @@ function magic() {
                                       document.getElementById(
                                         "up1"
                                       ).style.visibility = "visible";
+                                      document.getElementById(
+                                        "fh"
+                                      ).disabled = true;
                                       document.getElementById(
                                         "next1"
                                       ).style.visibility = "visible";
@@ -1098,6 +1139,9 @@ function magic() {
                                 document.getElementById(
                                   "10-2"
                                 ).style.visibility = "hidden";
+                                document.getElementById(
+                                  "plan"
+                                ).disabled = false;
                               }
                             };
                         }, 30000);
@@ -1112,6 +1156,7 @@ function magic() {
                   document.getElementById("7-1-6").style.visibility = "hidden";
                   document.getElementById("up1").style.visibility = "hidden";
                   document.getElementById("10-2").style.visibility = "hidden";
+                  document.getElementById("load").style.visibility = "hidden";
                 }
 
                 setTimeout(function () {
