@@ -1,0 +1,88 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "How many rotors does an octocopter have in general?",
+      "answers": {
+        "a": "2",
+        "b": "4",
+        "c": "6",
+        "d": "8"
+      },
+      "explanations": {
+        "a": " ",
+        "b": " ",
+        "c": " ",
+        "d": " "
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "In a quadcopter, all the motors rotate in the same direction to maneuver the drone?",
+      "answers": {
+        "a": "True",
+        "b": "False"
+      },
+      "explanations": {
+        "a": " ",
+        "b": " ",
+        "c": " ",
+        "d": " "
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following components acts as the brain of a drone?",
+      "answers": {
+        "a": "GPS module",
+        "b": "Electronic speed controller",
+        "c": "Accelerometer",
+        "d": "Flight controller"
+      },
+      "explanations": {
+        "a": " ",
+        "b": " ",
+        "c": " ",
+        "d": " "
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "If a drone flies on a 3000 mAh battery and its current consumption is 60A for the given height, what would be its flight time?",
+      "answers": {
+        "a": "5 min",
+        "b": "3 min",
+        "c": "6 min",
+        "d": "4 min"
+      },
+      "explanations": {
+        "a": " ",
+        "b": " ",
+        "c": " ",
+        "d": " "
+      },
+      "correctAnswer": "b",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "Which type of electric motors are widely used in drones?",
+      "answers": {
+        "a": "Brushed DC motors",
+        "b": "Brushless DC motors",
+        "c": "Synchronous motors",
+        "d": "Three-phase induction motors"
+      },
+      "explanations": {
+        "a": " ",
+        "b": " ",
+        "c": " ",
+        "d": " "
+      },
+      "correctAnswer": "b",
+      "difficulty": "Intermediate"
+    }
+  ]
+}

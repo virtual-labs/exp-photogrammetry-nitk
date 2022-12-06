@@ -1,0 +1,88 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "As the altitude of the drone increases the GSD decreases.",
+      "answers": {
+        "a": "True",
+        "b": "False"
+      },
+      "explanations": {
+        "a": " ",
+        "b": " ",
+        "c": " ",
+        "d": " "
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Select all the parameters to be checked in the preflight checks",
+      "answers": {
+        "a": "Camera",
+        "b": "Controller",
+        "c": "Flight plan",
+        "d": "All of the above"
+      },
+      "explanations": {
+        "a": " ",
+        "b": " ",
+        "c": " ",
+        "d": " "
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What should be the preferred gimbal angle of the camera to carry out the 2d photogrammetric survey?",
+      "answers": {
+        "a": "45 degrees",
+        "b": "60",
+        "c": "90",
+        "d": "180"
+      },
+      "explanations": {
+        "a": " ",
+        "b": " ",
+        "c": " ",
+        "d": " "
+      },
+      "correctAnswer": "c",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "What does the term RTH stand for?",
+      "answers": {
+        "a": "Real-time height",
+        "b": "Return to home",
+        "c": "Rotate to hover",
+        "d": "Right to heading"
+      },
+      "explanations": {
+        "a": " ",
+        "b": " ",
+        "c": " ",
+        "d": " "
+      },
+      "correctAnswer": "b",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "The purpose of using RTK in drones is to?",
+      "answers": {
+        "a": "Calculated the distance from home",
+        "b": "Correct the GPS location in real-time",
+        "c": "Calibrate the sensors in real time",
+        "d": "Calculate the real-time height of the drone"
+      },
+      "explanations": {
+        "a": " ",
+        "b": " ",
+        "c": " ",
+        "d": " "
+      },
+      "correctAnswer": "b",
+      "difficulty": "Advanced"
+    }
+  ]
+}
