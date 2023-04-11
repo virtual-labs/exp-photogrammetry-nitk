@@ -2,87 +2,89 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "How many rotors does an octocopter have in general?",
+      "question": "The best gimbal angle for thermal inspection of a solar panel is?",
       "answers": {
-        "a": "2",
-        "b": "4",
-        "c": "6",
-        "d": "8"
+        "a": "60-90",
+        "b": "70-90",
+        "c": "80-90",
+        "d": "45-60"
       },
       "explanations": {
-        "a": " ",
-        "b": " ",
-        "c": " ",
-        "d": " "
-      },
-      "correctAnswer": "d",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "In a quadcopter, all the motors rotate in the same direction to maneuver the drone?",
-      "answers": {
-        "a": "True",
-        "b": "False"
-      },
-      "explanations": {
-        "a": " ",
-        "b": " ",
-        "c": " ",
-        "d": " "
+        "a": " The best gimbal angle for thermal inspection of a solar panel is 70-90 degree",
+        "b": "Correct answer. The best gimbal angle for thermal inspection of a solar panel is 70-90 degree.",
+        "c": " The best gimbal angle for thermal inspection of a solar panel is 70-90 degree",
+        "d": " The best gimbal angle for thermal inspection of a solar panel is 70-90 degree"
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "Which of the following components acts as the brain of a drone?",
+      "question": "In a thermal image which color represents the objects at room temperature?",
       "answers": {
-        "a": "GPS module",
-        "b": "Electronic speed controller",
-        "c": "Accelerometer",
-        "d": "Flight controller"
+        "a": "GREEN",
+        "b": "RED",
+        "c": "YELLOW",
+        "d": "ORANGE"
       },
       "explanations": {
-        "a": " ",
-        "b": " ",
-        "c": " ",
-        "d": " "
+        "a": "Correct answer. In a thermal image, objects at room temperature are typically represented by shades of blue, green, or purple. ",
+        "b": "In a thermal image, objects at room temperature are typically represented by shades of blue, green, or purple. ",
+        "c": "In a thermal image, objects at room temperature are typically represented by shades of blue, green, or purple. ",
+        "d": "In a thermal image, objects at room temperature are typically represented by shades of blue, green, or purple. "
       },
-      "correctAnswer": "d",
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "In solar panel inspection using a thermal camera, the defective cells are represented by which color?",
+      "answers": {
+        "a": "PURPLE",
+        "b": "BRIGHT ORANGE",
+        "c": "BRIGHT YELLOW",
+        "d": "BLACK"
+      },
+      "explanations": {
+        "a": "In solar panel inspection using a thermal camera, the defective cells are represented by bright yellow.",
+        "b": "In solar panel inspection using a thermal camera, the defective cells are represented by bright yellow.",
+        "c": "Correct answer. In solar panel inspection using a thermal camera, the defective cells are represented by bright yellow.",
+        "d": "In solar panel inspection using a thermal camera, the defective cells are represented by bright yellow."
+      },
+      "correctAnswer": "c",
       "difficulty": "beginner"
     },
     {
-      "question": "If a drone flies on a 3000 mAh battery and its current consumption is 60A for the given height, what would be its flight time?",
+      "question": "Which of the following is not an application of thermal drone imagery?",
       "answers": {
-        "a": "5 min",
-        "b": "3 min",
-        "c": "6 min",
-        "d": "4 min"
+        "a": "Surveillance",
+        "b": "Electrical Inspection",
+        "c": "Road Inspection",
+        "d": "Railway Inspection"
       },
       "explanations": {
-        "a": " ",
-        "b": " ",
-        "c": " ",
-        "d": " "
+        "a": "Surveillance is an application of thermal drone imagery.",
+        "b": "Electrical Inspection is an application of thermal drone imagery.",
+        "c": "Road Inspection is not generally an application of thermal drone imagery. ",
+        "d": "Railway Inspectionis an application of thermal drone imagery."
       },
-      "correctAnswer": "b",
-      "difficulty": "Advanced"
+      "correctAnswer": "c",
+      "difficulty": "advanced"
     },
     {
-      "question": "Which type of electric motors are widely used in drones?",
+      "question": "What factors can affect the accuracy of temperature detection?",
       "answers": {
-        "a": "Brushed DC motors",
-        "b": "Brushless DC motors",
-        "c": "Synchronous motors",
-        "d": "Three-phase induction motors"
+        "a": "The reflection of objects on metal surfaces will result in lower temperature detection than the true value",
+        "b": "The humidity and temperature of the air",
+        "c": "Both A and B".
+    
       },
       "explanations": {
-        "a": " ",
-        "b": " ",
-        "c": " ",
-        "d": " "
+        "a": "The accuracy of temperature detection is affected by reflection of objects and humidity of the air. ",
+        "b": "The accuracy of temperature detection is affected by reflection of objects and humidity of the air.",
+        "c": "The accuracy of temperature detection is affected by reflection of objects and humidity of the air."
+      
       },
-      "correctAnswer": "b",
-      "difficulty": "Intermediate"
+      "correctAnswer": "c",
+      "difficulty": "intermediate"
     }
   ]
 }
