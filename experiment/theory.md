@@ -4,6 +4,14 @@ Surveying is the precise science of determining the positions of, and the distan
 
 Unmanned Aerial Vehicles, or UAVs, excel at rapidly acquiring data from vantage points inaccessible to humans. When surveying challenging terrain, drones make it no longer necessary for human operators to physically access and measure points in hazardous or difficult-to-reach locations. Additionally, while traditional surveying methods require meticulous measurement, preparation, and planning, drones can capture comparable data in dramatically shorter timeframes.
 
+<center>
+
+<img src="./images/photo.PNG" alt="UAV" />
+
+<figcaption>Source: https://www.jouav.com/blog/lidar-vs-photogrammetry.html</figcaption>
+
+</center>
+
 In construction and project management, drone surveying can provide critical data that goes hand in hand with Building Information Modeling (BIM).
 At each stage of the construction process, high-resolution 3D photogrammetric or laser models captured by drones can be overlaid on and compared with pre-planned BIM objects. This allows for discrepancies between plans and reality to be identified.
 

@@ -12,7 +12,5 @@
 | :--: | :-------------: | :-------: |
 |  1   | Shamanth Gowda  |   NITK    |
 |  2   | Aishwarya Hegde |   NITK    |
-|  3   | Prajna K |   NITK    |
+|  3   |    Prajna K     |   NITK    |
 |  4   |     Akshaya     |   NITK    |
-
-
