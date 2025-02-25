@@ -1,0 +1,78 @@
+
+/home/runner/work/exp-photogrammetry-nitk/exp-photogrammetry-nitk/experiment/simulation/js/sim.js
+    24:9   warning  'simsubscreennum' is not defined                   no-undef
+    25:11  warning  'itv' is not defined                               no-undef
+    27:9   warning  'inCount' is not defined                           no-undef
+    28:18  warning  'itv' is not defined                               no-undef
+    28:30  warning  'itv' is not defined                               no-undef
+    30:9   warning  'inCount' is not defined                           no-undef
+    31:18  warning  'itv' is not defined                               no-undef
+    31:30  warning  'itv' is not defined                               no-undef
+    33:9   warning  'inCount' is not defined                           no-undef
+    34:18  warning  'itv' is not defined                               no-undef
+    36:9   warning  'inCount' is not defined                           no-undef
+    86:11  warning  'dispAns' is already defined                       no-redeclare
+    93:11  warning  'dispAns' is already defined                       no-redeclare
+   102:5   warning  'nextFunction' is not defined                      no-undef
+   109:7   warning  'nextFunction' is not defined                      no-undef
+   122:10  warning  'navNext' is defined but never used                no-unused-vars
+   123:8   warning  'temp' is not defined                              no-undef
+   123:18  warning  'temp' is not defined                              no-undef
+   123:29  warning  'temp' is not defined                              no-undef
+   124:40  warning  'temp' is not defined                              no-undef
+   126:3   warning  'simsubscreennum' is not defined                   no-undef
+   127:38  warning  'simsubscreennum' is not defined                   no-undef
+   138:10  warning  'animatearrow1' is defined but never used          no-unused-vars
+   145:17  warning  'myInt' is not defined                             no-undef
+   152:5   warning  'released' is assigned a value but never used      no-unused-vars
+   153:5   warning  'v' is assigned a value but never used             no-unused-vars
+   155:7   warning  'simsubscreennum' is not defined                   no-undef
+   161:5   warning  'myInt' is not defined                             no-undef
+   177:9   warning  'myInt' is not defined                             no-undef
+   211:14  warning  'simsubscreennum' is not defined                   no-undef
+   233:14  warning  'simsubscreennum' is not defined                   no-undef
+   235:5   warning  'myInt' is not defined                             no-undef
+   253:11  warning  'myInt' is not defined                             no-undef
+   294:14  warning  'simsubscreennum' is not defined                   no-undef
+   309:7   warning  'myInt' is not defined                             no-undef
+   324:11  warning  'myInt' is not defined                             no-undef
+   340:15  warning  'myInt' is not defined                             no-undef
+   373:23  warning  'myInt' is not defined                             no-undef
+   465:14  warning  'simsubscreennum' is not defined                   no-undef
+   478:7   warning  'myInt' is not defined                             no-undef
+   504:14  warning  'simsubscreennum' is not defined                   no-undef
+   514:7   warning  'myInt' is not defined                             no-undef
+   546:17  warning  'myInt' is not defined                             no-undef
+   579:14  warning  'simsubscreennum' is not defined                   no-undef
+   587:5   warning  'myInt' is not defined                             no-undef
+  1179:14  warning  'simsubscreennum' is not defined                   no-undef
+  1228:3   warning  'myInt' is not defined                             no-undef
+  1289:13  warning  'myInt' is not defined                             no-undef
+  1327:10  warning  'hidedial' is defined but never used               no-unused-vars
+  1331:10  warning  'hidedial1' is defined but never used              no-unused-vars
+  1335:10  warning  'hidedialog' is defined but never used             no-unused-vars
+  1339:10  warning  'hidedialog1' is defined but never used            no-unused-vars
+  1347:10  warning  'hidedial2' is defined but never used              no-unused-vars
+  1351:10  warning  'hidedial3' is defined but never used              no-unused-vars
+  1355:5   warning  'y' is defined but never used                      no-unused-vars
+  1356:10  warning  'handleFlightSelection' is defined but never used  no-unused-vars
+  1403:10  warning  'change1' is defined but never used                no-unused-vars
+  1416:10  warning  'up' is defined but never used                     no-unused-vars
+  1422:5   warning  'myVar' is assigned a value but never used         no-unused-vars
+  1424:10  warning  'loadFunction' is defined but never used           no-unused-vars
+  1432:5   warning  'i' is already defined                             no-redeclare
+  1440:5   warning  Move function declaration to function body root    no-inner-declarations
+  1459:5   warning  Move function declaration to function body root    no-inner-declarations
+  1478:5   warning  Move function declaration to function body root    no-inner-declarations
+  1497:5   warning  Move function declaration to function body root    no-inner-declarations
+  1517:10  warning  'check_value' is defined but never used            no-unused-vars
+  1553:10  warning  'checkClicked' is defined but never used           no-unused-vars
+  1559:10  warning  'contents' is defined but never used               no-unused-vars
+  1562:10  warning  'res' is defined but never used                    no-unused-vars
+  1568:7   warning  'txt1' is assigned a value but never used          no-unused-vars
+  1569:7   warning  'bts1' is assigned a value but never used          no-unused-vars
+  1570:7   warning  'out1' is assigned a value but never used          no-unused-vars
+  1571:10  warning  'setTitle' is defined but never used               no-unused-vars
+
+✖ 73 problems (0 errors, 73 warnings)
+
