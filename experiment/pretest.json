@@ -2,38 +2,89 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "The best gimbal angle for thermal inspection of a solar panel is?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "60-90",
+        "b": "70-90",
+        "c": "80-90",
+        "d": "45-60"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": " The best gimbal angle for thermal inspection of a solar panel is 70-90 degree",
+        "b": "Correct answer. The best gimbal angle for thermal inspection of a solar panel is 70-90 degree.",
+        "c": " The best gimbal angle for thermal inspection of a solar panel is 70-90 degree",
+        "d": " The best gimbal angle for thermal inspection of a solar panel is 70-90 degree"
       },
-      "correctAnswer": "a",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "In a thermal image which color represents the objects at room temperature?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "GREEN",
+        "b": "RED",
+        "c": "YELLOW",
+        "d": "ORANGE"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Correct answer. In a thermal image, objects at room temperature are typically represented by shades of blue, green, or purple. ",
+        "b": "In a thermal image, objects at room temperature are typically represented by shades of blue, green, or purple. ",
+        "c": "In a thermal image, objects at room temperature are typically represented by shades of blue, green, or purple. ",
+        "d": "In a thermal image, objects at room temperature are typically represented by shades of blue, green, or purple. "
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "In solar panel inspection using a thermal camera, the defective cells are represented by which color?",
+      "answers": {
+        "a": "PURPLE",
+        "b": "BRIGHT ORANGE",
+        "c": "BRIGHT YELLOW",
+        "d": "BLACK"
+      },
+      "explanations": {
+        "a": "In solar panel inspection using a thermal camera, the defective cells are represented by bright yellow.",
+        "b": "In solar panel inspection using a thermal camera, the defective cells are represented by bright yellow.",
+        "c": "Correct answer. In solar panel inspection using a thermal camera, the defective cells are represented by bright yellow.",
+        "d": "In solar panel inspection using a thermal camera, the defective cells are represented by bright yellow."
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following is not an application of thermal drone imagery?",
+      "answers": {
+        "a": "Surveillance",
+        "b": "Electrical Inspection",
+        "c": "Road Inspection",
+        "d": "Railway Inspection"
+      },
+      "explanations": {
+        "a": "Surveillance is an application of thermal drone imagery.",
+        "b": "Electrical Inspection is an application of thermal drone imagery.",
+        "c": "Road Inspection is not generally an application of thermal drone imagery. ",
+        "d": "Railway Inspectionis an application of thermal drone imagery."
+      },
+      "correctAnswer": "c",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "What factors can affect the accuracy of temperature detection?",
+      "answers": {
+        "a": "The reflection of objects on metal surfaces will result in lower temperature detection than the true value",
+        "b": "The humidity and temperature of the air",
+        "c": "Both A and B"
+    
+      },
+      "explanations": {
+        "a": "The accuracy of temperature detection is affected by reflection of objects and humidity of the air. ",
+        "b": "The accuracy of temperature detection is affected by reflection of objects and humidity of the air.",
+        "c": "The accuracy of temperature detection is affected by reflection of objects and humidity of the air."
+      
+      },
+      "correctAnswer": "c",
+      "difficulty": "intermediate"
     }
   ]
 }

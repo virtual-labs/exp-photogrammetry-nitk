@@ -2,38 +2,86 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "As the altitude of the drone increases the GSD decreases.",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "True",
+        "b": "False"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Correct Answer. As the altitude of the drone increases the GSD decreases.",
+        "b": "As the altitude of the drone increases the GSD decreases."
+       
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Select all the parameters to be checked in the preflight checks",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Camera",
+        "b": "Controller",
+        "c": "Flight plan",
+        "d": "All of the above"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Camera, Controller, Flight plan are the parameters to be checked in the preflight checks.",
+        "b": "Camera, Controller, Flight plan are the parameters to be checked in the preflight checks.",
+        "c": "Camera, Controller, Flight plan are the parameters to be checked in the preflight checks.",
+        "d": "Correct Answer. Camera, Controller, Flight plan are the parameters to be checked in the preflight checks."
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What should be the preferred gimbal angle of the camera to carry out the 2d photogrammetric survey?",
+      "answers": {
+        "a": "45 degrees",
+        "b": "60 degrees",
+        "c": "90 degrees",
+        "d": "180 degrees"
+      },
+      "explanations": {
+        "a": "90 degrees is the preferred gimbal angle of the camera to carry out the 2d photogrammetric survey.",
+        "b": "90 degrees is the preferred gimbal angle of the camera to carry out the 2d photogrammetric survey.",
+        "c": "Correct Answer. 90 degrees is the preferred gimbal angle of the camera to carry out the 2d photogrammetric survey.",
+        "d": "90 degrees is the preferred gimbal angle of the camera to carry out the 2d photogrammetric survey."
       },
       "correctAnswer": "c",
-      "difficulty": "beginner"
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "What does the term RTH stand for?",
+      "answers": {
+        "a": "Real-time height",
+        "b": "Return to home",
+        "c": "Rotate to hover",
+        "d": "Right to heading"
+      },
+      "explanations": {
+        "a": "RTH is Return to home.",
+        "b": "Correct Answer. RTH is Return to home.",
+        "c": "RTH is Return to home.",
+        "d": "RTH is Return to home."
+      },
+      "correctAnswer": "b",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "The purpose of using RTK in drones is to?",
+      "answers": {
+        "a": "Calculated the distance from home",
+        "b": "Correct the GPS location in real-time",
+        "c": "Calibrate the sensors in real time",
+        "d": "Calculate the real-time height of the drone"
+      },
+      "explanations": {
+        "a": "The purpose of using RTK in drones is to correct the GPS location in real-time.",
+        "b": "Correct Answer. The purpose of using RTK in drones is to correct the GPS location in real-time.",
+        "c": "The purpose of using RTK in drones is to correct the GPS location in real-time.",
+        "d": "The purpose of using RTK in drones is to correct the GPS location in real-time."
+      },
+      "correctAnswer": "b",
+      "difficulty": "Advanced"
     }
   ]
 }
