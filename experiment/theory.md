@@ -8,7 +8,7 @@ Unmanned Aerial Vehicles, or UAVs, excel at rapidly acquiring data from vantage 
 
 <img src="./images/photo.PNG" alt="UAV" />
 
-<figcaption>Source: https://www.jouav.com/blog/lidar-vs-photogrammetry.html</figcaption>
+<figcaption>Source: <a href="https://www.jouav.com/blog/lidar-vs-photogrammetry.html">https://www.jouav.com/blog/lidar-vs-photogrammetry.html</a></figcaption>
 
 </center>
 
